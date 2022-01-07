@@ -1,0 +1,50 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		body {
+		  background-color: rgb(149, 219, 240);
+		}
+
+		h1 {
+		  color: navy;
+		  margin-left: 20px;
+		}
+		
+		button {
+		background-color: rgb(245, 0, 0);
+		color: black;
+		padding: 15px 32px;
+		text-align: center;
+		margin: 4px 2px;
+		}
+	</style>
+    <meta charset="UTF-8">
+    <title>Index</title>
+ 
+</style>
+</head>
+<body>
+	<div style="position:relative;  left:700px; top:50px;" >
+		<h1 >Index</h1>
+		<div style="font-size:xx-large">
+		<a href="second.html">A doua pagina</a></br>
+		</div>
+		<div>. </div>
+		
+		<div>. </div>
+		<button id="textChanger">Schimba textul!</button>
+		<div>. </div>
+		
+		<div>. </div>
+		<div id="firstDiv" style="font-size: xx-large;">The quick brown fox jumps over the lazy dog</div>
+		
+		<script>
+			document.getElementById("textChanger").onclick=function(){
+				document.getElementById("firstDiv").innerHTML= "Hello World!";
+			}
+		</script>
+	</div>
+</body>
+</html>
